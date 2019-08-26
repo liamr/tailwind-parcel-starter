@@ -1,0 +1,16 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap");
+
+.section {
+  @apply flex-1 p-4;
+}
+@screen md {
+  .section {
+    @apply flex-1 p-6;
+  }
+}
